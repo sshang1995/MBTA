@@ -1,49 +1,71 @@
 ## Objectives
 
-Deliver accurate subway stop information from API endpoints. Ensure all endpoints are easy to use and return accurate response.
+Deliver accurate subway stop information from API endpoints. Ensure all endpoints are easy to use and return accurate, structured responses.
 
 ## Scope
 
-1. API endpoints integrated with MBTA API.
+1. Integrate API endpoints with official MBTA API.
 2. Only focus on (light and heavy trail) subway stop.
 
 ## Testing
 
 ### Unit Testing
 
-1. Verify business logic for extracting GPS coordinates, subway line mapping, adjacent stops.
-   1.1 Create test cases, making several json response to check if API response matches the test case.
-   1.2 Test edge cases, eg. a subway stop does not have adjacent stops or deprecated routes or stops.
+1. Business logic validation
 
-2. Verify MBTA APIs used in the code are correct and working.
+- Verify core functionalities, such as extracting GPS coordinates, mapping subway lines, and retrieving adjacent stops.
+- Create test cases using mocked response to ensure the API returns expected results.
+- Test edge cases, such as:
+  - stops without adjacent stops
+  - Deprecated or invalid routes/stops
+
+2. MBTA API Integration
+
+- Confirm that all MBTA endpoints used in the code are valid and return expected data.
 
 ### Integration Testing
 
-1. Testing rate limits for MBTA API used in the code
+1. API rate limiting
+
+- Validate application behavior under MBTA API rate limiting conditions.
+- Ensure error handling are in place.
 
 ### Data Integrity
 
-- Validate API response with real MBTA data.
+- Cross-check and validate API responses against real MBTA data to ensure accuracy and consistency.
 
 ## Observability
 
 1. Logging
-   1.1 Log API status and error message
-   1.2 Return proper error messages and status code
+
+   - Log API request/response status and relevant error messages
+   - Ensure all error responses include appropriate HTTP status codes and clear messages.
 
 2. Monitoring
-   2.1 Monitor performance metics like RPS (request per second), Response Time, Number of failed requests, etc.
-   2.2 Set up alert on API failures above certain threshold, or average response time above certain limit.
+   - Track key performance metrics such as:
+     - Requests per second (RPS)
+     - Response time
+     - Failure rates
+   - Set up alerts for:
+   - API failure rates exceeding a defined threshold
+   - Average response time exceeding acceptable limits
 
 ## Release Process
 
-1. Branching and code review: feature, main branch. PR review.
+1. Follow a clear Git branching model using feature, main and release branch. All code changes go through PR reviews.
+
 2. Set up Dev, QA, Staging, Production environment.
-   Developer finishes development and pushes code to QA, QA verify the API endpoints. If no issue found, code can be pushed to Staging env and waiting for production deployment. If found any issues, QA notifies developer and creates bug ticket for developer.
-3. CI/CD pipeline.
+   - Developers push completed features to the QA environment.
+   - QA validates endpoints. If issues are found:
+   - QA files bug reports.
+   - Developers fix issues and resubmit for QA.
+   - Upon approval, code is promoted to staging, then to Production.
+3. Build CI/CD pipeline.
+
+- Set up automated pipelines for building, testing, and deploying code across environments.
 
 ## Stakeholders
 
-1. Public user who will use this information for commute.
-2. QA who will validate the information.
-3. Developers who will use API endpoints to develop software
+1. Public users - Rely on the subway information for daily commutes.
+2. QA - Validate API functionality, performance and accuracy.
+3. Developers - Build and maintain the API and ensure long-term reliability and scalability.
