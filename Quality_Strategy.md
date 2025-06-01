@@ -16,7 +16,7 @@ Deliver accurate subway stop information from API endpoints. Ensure all endpoint
 - Verify core functionalities, such as extracting GPS coordinates, mapping subway lines, and retrieving adjacent stops.
 - Create test cases using mocked response to ensure the API returns expected results.
 - Test edge cases, such as:
-  - stops without adjacent stops
+  - Stops without adjacent stops
   - Deprecated or invalid routes/stops
 
 2. MBTA API Integration

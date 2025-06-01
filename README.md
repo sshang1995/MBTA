@@ -1,6 +1,6 @@
 # MBTA
 
-## install library
+## Install library
 
 - pip install fastapi
 - pip install uvicorn
@@ -10,7 +10,7 @@
 create a .env file to store API key:
 MBTA_KEY="Your API Key"
 
-## run code in local
+## Run code in local
 
 uvicorn main:app --reload
 (API is running on http://127.0.0.1:8000)
@@ -78,5 +78,5 @@ http://127.0.0.1:8000/docs
 
 ## Future work
 
-1. add caching to save API response
-2. add rate limiting for the API
+1. Add caching to save API response
+2. Add rate limiting for the API
