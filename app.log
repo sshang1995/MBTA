@@ -1,0 +1,72 @@
+2025-05-30 09:45:15,459 - INFO - Fetched 20 stops for page 1 with page size 20
+2025-05-30 09:45:18,147 - INFO - Fetched 1 stops for page 1 with page size 1
+2025-05-30 09:45:33,434 - INFO - Fetched 1 stops for page 1 with page size 1
+2025-05-30 09:47:10,891 - INFO - Fetched 1 stops for page 1 with page size 1
+2025-05-30 09:48:21,864 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-05-30 10:05:39,128 - INFO - Fetched 1 stops for page 1 with page size 1
+2025-05-30 10:10:34,352 - INFO - Fetched 1 stops for page 1 with page size 1
+2025-05-30 10:11:55,100 - INFO - Fetched stop for Downtown Crossing
+2025-05-30 10:18:38,974 - INFO - Fetched stop for Science ParkWest End
+2025-05-30 10:18:40,245 - INFO - Fetched stop for Science ParkWest End
+2025-05-30 10:18:44,945 - INFO - Fetched stop for Science ParkWest End
+2025-05-30 10:19:41,093 - INFO - Fetched stop for Science ParkWest End
+2025-05-30 10:20:30,373 - INFO - Fetched stop for Boylston
+2025-05-30 10:23:05,243 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-05-30 12:14:54,906 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-05-30 12:15:48,156 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-05-30 12:16:00,234 - ERROR - Failed to fetch stops: 404 - {"errors":[{"code":"not_found","status":"404","title":"Resource Not Found","source":{"parameter":"id"}}],"jsonapi":{"version":"1.0"}}
+2025-05-30 12:16:00,722 - ERROR - Failed to fetch stops: 404 - {"errors":[{"code":"not_found","status":"404","title":"Resource Not Found","source":{"parameter":"id"}}],"jsonapi":{"version":"1.0"}}
+2025-05-30 12:17:57,178 - ERROR - Failed to fetch stops: 404 - {"errors":[{"code":"not_found","status":"404","title":"Resource Not Found","source":{"parameter":"id"}}],"jsonapi":{"version":"1.0"}}
+2025-05-30 12:17:59,634 - ERROR - Failed to fetch stops: 404 - {"errors":[{"code":"not_found","status":"404","title":"Resource Not Found","source":{"parameter":"id"}}],"jsonapi":{"version":"1.0"}}
+2025-05-30 12:18:34,687 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-05-30 12:25:39,083 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-05-30 12:27:27,338 - ERROR - Failed to fetch schedules for trip canonical-Red-C1-0: 404 - {"errors":[{"code":"not_found","status":"404","title":"Resource Not Found","source":{"parameter":"id"}}],"jsonapi":{"version":"1.0"}}
+2025-05-30 12:27:28,782 - ERROR - Failed to fetch schedules for trip canonical-Red-C1-0: 404 - {"errors":[{"code":"not_found","status":"404","title":"Resource Not Found","source":{"parameter":"id"}}],"jsonapi":{"version":"1.0"}}
+2025-05-30 12:36:00,925 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-05-30 12:51:31,623 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-05-30 12:54:45,862 - INFO - Fetched stop for Boylston
+2025-05-30 12:55:40,099 - INFO - Fetched stop for Boylston
+2025-05-30 12:56:35,913 - INFO - Fetched stop for Boylston
+2025-05-30 12:56:48,603 - INFO - Fetched stop for Boylston
+2025-05-30 15:22:11,718 - INFO - Fetched 1 stops for page 1 with page size 1
+2025-05-30 15:23:15,304 - INFO - Fetched 1 stops for page 1 with page size 1
+2025-05-30 15:23:37,415 - INFO - Fetched stop for Boylston
+2025-05-30 15:24:52,103 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-05-30 15:25:15,178 - INFO - Fetched 1 stops for page 1 with page size 1
+2025-05-30 15:26:02,146 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-05-30 15:26:32,848 - INFO - Fetched 1 stops for page 1 with page size 1
+2025-05-30 15:28:58,381 - INFO - Fetched stop for Boylston
+2025-05-30 15:30:08,261 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-05-30 15:45:25,246 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-05-30 15:45:56,500 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-05-30 15:46:28,307 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-05-30 15:48:43,175 - INFO - Fetched stop for Wollaston
+2025-05-30 15:49:18,391 - INFO - Fetched stop for Story Brook
+2025-05-30 15:49:32,674 - INFO - Fetched stop for Stony Brook
+2025-05-30 15:50:22,187 - INFO - Fetched stop for Central
+2025-05-30 15:52:33,242 - INFO - Fetched stop for Central
+2025-05-30 15:53:05,143 - INFO - Fetched stop for Wood Island
+2025-05-30 16:02:09,357 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-05-30 16:02:36,440 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-05-30 16:03:03,229 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-05-30 16:04:44,502 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-05-30 16:05:11,234 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-05-30 16:05:39,410 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-06-01 11:12:35,827 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-06-01 11:12:58,320 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-06-01 11:13:20,410 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-06-01 11:13:29,441 - INFO - Fetched stop for Boylston
+2025-06-01 11:16:54,666 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-06-01 11:16:54,676 - INFO - HTTP Request: GET http://127.0.0.1:8000/stops?stop_name=Boylston "HTTP/1.1 200 OK"
+2025-06-01 11:17:51,004 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-06-01 11:17:51,009 - INFO - HTTP Request: GET http://127.0.0.1:8000/stops?stop_name=Boylston "HTTP/1.1 200 OK"
+2025-06-01 11:20:12,600 - INFO - Fetched stop for Boylston
+2025-06-01 11:20:12,604 - INFO - HTTP Request: GET http://127.0.0.1:8000/stops/Boylston "HTTP/1.1 200 OK"
+2025-06-01 11:21:49,420 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-06-01 11:21:59,366 - INFO - Fetched stop for Boylston
+2025-06-01 11:22:02,435 - INFO - Fetched stop for Wood Island
+2025-06-01 11:23:40,215 - INFO - Fetched 10 stops for page 1 with page size 10
+2025-06-01 11:23:51,222 - INFO - Fetched stop for Boylston
+2025-06-01 11:23:54,245 - INFO - Fetched stop for Wood Island
+2025-06-01 11:24:57,152 - INFO - Fetched stop for Boylston
+2025-06-01 11:25:19,994 - INFO - Fetched stop for Wood Island

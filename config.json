@@ -1,0 +1,7 @@
+{
+    "base_url": "https://api-v3.mbta.com/", 
+    "stops": "stops?filter[route_type]=0,1", 
+    "routes": "routes?filter[stop]={}", 
+    "trips": "route_patterns?filter[route]={}", 
+    "schedules": "schedules?filter[trip]={}&sort=stop_sequence&include=stop"
+}
